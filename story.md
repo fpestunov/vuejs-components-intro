@@ -46,3 +46,8 @@ In this lesson, we'll see a realistic use case for reusable components and learn
 Props are custom HTML attributes that we can register on our components, which allow us to pass data to our components.
 
 You can find the starting point of the demo in this lesson in the link. We've also created a jsfiddle if you want to play around with the code.
+
+Порядок действия:
+- у нас был исходный код, в котором предложения перечислялись в HTML;
+- добавили компонент и используем props, кода стало меньше и он стал проще;
+- теперь сделаем, чтобы значения собирались из массива и props сделаем объектом;
