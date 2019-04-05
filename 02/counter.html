@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vue.js Components - Component's Template</title>
+</head>
+<body>
+    <div id="app">
+       <h1>Vue.js Components - Component's Template</h1> 
+       <click-counter></click-counter>
+       <click-counter></click-counter>
+       <click-counter></click-counter>
+    </div>
+
+    <script type="text/x-template" id="click-counter-template">
+        <div>
+            <p>Total clicks:</p>
+            <button @click="count++">{{count}}</button>
+        </div>
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="app.js"></script>
+</body>
+</html>

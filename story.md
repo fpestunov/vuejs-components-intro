@@ -29,3 +29,12 @@ https://ru.vuejs.org/v2/guide/components
 Создадим первый компонент.
 
 
+## 2. Component's Template
+
+We're going to learn about a Vue component's template. Essentially, the template is where we define our HTML and general markup for our component. We also bind our component's data to the DOM in the template.
+
+In Vue.js, we can define our template in a few different ways. In this lesson, we'll move away from the inline template and use the *x-template technique*, which is great when you're getting started.
+
+Remember! Component template must contain exactly one root element. You should use a wrappers like <div>.
+
+https://ru.vuejs.org/v2/guide/syntax.html
