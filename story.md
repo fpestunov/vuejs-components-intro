@@ -2,7 +2,7 @@
 
 Components are the puzzle pieces of a Vue.js website. Learn the fundamental and important concept of Vue.js components in this course.
 
-Learn everything you need to know to get started with Vue.js components. Web components are custom developer defined HTML elements, like <p>,<body>, or <button>, that allows us to encapsulate some functionality of our applications.
+Learn everything you need to know to get started with Vue.js components. Web components are custom developer defined HTML elements, like `<p>`, `<body>`, or `<button>`, that allows us to encapsulate some functionality of our applications.
 
 Components are the puzzle pieces of a Vue.js website. Components combine blocks of HTML, JavaScript, and CSS. And as a result, they allow us to easily encapsulate and reuse functionality in our applications.
 
@@ -35,6 +35,14 @@ We're going to learn about a Vue component's template. Essentially, the template
 
 In Vue.js, we can define our template in a few different ways. In this lesson, we'll move away from the inline template and use the *x-template technique*, which is great when you're getting started.
 
-Remember! Component template must contain exactly one root element. You should use a wrappers like <div>.
+Remember! Component template must contain exactly one root element. You should use a wrappers like `<div>`.
 
 https://ru.vuejs.org/v2/guide/syntax.html
+
+## 3. Reusable Components with Props
+
+In this lesson, we'll see a realistic use case for reusable components and learn about Vue.js component props.
+
+Props are custom HTML attributes that we can register on our components, which allow us to pass data to our components.
+
+You can find the starting point of the demo in this lesson in the link. We've also created a jsfiddle if you want to play around with the code.
